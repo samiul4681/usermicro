@@ -1,3 +1,3 @@
 FROM openjdk:21-slim
-COPY target/demo-0.0.1-SNAPSHOT.jar demo-0.0.1-SNAPSHOT.jar
-ENTRYPOINT ["java","-jar","/demo-0.0.1-SNAPSHOT.jar"]
+COPY target/usermicro-0.0.1-SNAPSHOT.jar usermicro-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/usermicro-0.0.1-SNAPSHOT.jar"]

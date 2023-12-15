@@ -1,4 +1,4 @@
-package com.example.test.demo.configuration;
+package com.brainstation.usermicro.configuration;
 
 
 import com.fasterxml.jackson.databind.ser.std.StringSerializer;

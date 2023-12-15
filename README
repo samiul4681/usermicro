@@ -1,0 +1,18 @@
+How to build/run the project:
+
+1. run the maven project using mvn clean install -DskipTests  . This command will create a jar file and other classes.
+2. There is a docker file, run the command docker build -t user-server . in the folder where docker file exists
+   This command will create a docker image.
+
+3. To run the docker image you can use--    docker run -p 8000:8080 user-server
+   This command will run the image in the docker container.
+
+4. Docker compose file is used to build and run all the services like user-service, kafka, zookeeper, redis and
+postresql.
+ Use the command docker-compose up to run all the services in docker container.
+
+5. To test the application, the rest interfaces are defined in UserController class.
+
+6. You need to crete a database called "testdb" in postgresql. Using the command line exec connect to postgresql cli.
+
+

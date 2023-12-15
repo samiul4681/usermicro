@@ -1,6 +1,6 @@
-package repository;
+package com.brainstation.usermicro.repository;
 
-import entity.User;
+import com.brainstation.usermicro.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
