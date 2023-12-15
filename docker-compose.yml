@@ -1,0 +1,15 @@
+version: '2'
+services:
+  message-server:
+    container_name: user-server
+    build:
+      context: docker-user-server
+      dockerfile: Dockerfile
+    image: user-server:latest
+    ports:
+      - 18888:8080
+    networks:
+      - spring-cloud-network
+networks:
+  spring-cloud-network:
+    driver: bridge
